@@ -5,6 +5,7 @@ window = Tk()
 window.title("TO DO")
 window.geometry("350x400") # sets the default size for window
 
-greet = Label(text="Welcome What to do for the day", font = ("Arial Bold", 12))
+greet = Label(text="Make the Goals for the day", font = ("Arial Bold", 12))
+greet.grid(column=1,row=1)
 
 window.mainloop()
